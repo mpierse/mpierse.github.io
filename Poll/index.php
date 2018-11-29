@@ -22,6 +22,7 @@ $no = $no + 1;
 //insert votes to txt file
 $insertvote = $yes."||".$no;
 $fp = fopen($filename,"w");
+print("it works");
 fputs($fp,$insertvote);
 fclose($fp);
 ?>
