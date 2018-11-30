@@ -1,5 +1,7 @@
 
-
+<html>
+<head>
+    <script>
 <?php
 $vote = $_REQUEST['vote'];
 
@@ -22,10 +24,12 @@ $no = $no + 1;
 //insert votes to txt file
 $insertvote = $yes."||".$no;
 $fp = fopen($filename,"w");
-print("it works");
 fputs($fp,$insertvote);
 fclose($fp);
 ?>
+    </script>
+</head>
+<body>
 
 <h2>Result:</h2>
 <table>
@@ -48,6 +52,5 @@ fclose($fp);
         </td>
     </tr>
 </table>
-
-
-
+</body>
+</html>
