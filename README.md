@@ -7,6 +7,7 @@ Vistit [here](https://mpierse.github.io/).
 ## Built With
 
 * [Strata by HTML5 UP](https://html5up.net/strata) - HTML and CSS template
+* [Twenty by HTML5 UP](https://html5up.net/twenty) - HTML and CSS template
 
 ## Authors
 
